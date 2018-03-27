@@ -1,0 +1,331 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Homebrew
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:BlackMagicProbeAdapters_Konsgn-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Jtag_ARM_10pin J1
+U 1 1 58F52CD3
+P 3750 2650
+F 0 "J1" H 3590 2940 60  0000 C CNN
+F 1 "Jtag_ARM_10pin" H 3750 2350 60  0000 C CNN
+F 2 "Homebrew:CNX_2X05X1.27_Vertical_SMD" H 3750 2650 60  0001 C CNN
+F 3 "" H 3750 2650 60  0001 C CNN
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X03 J3
+U 1 1 58F52D6A
+P 5050 1600
+F 0 "J3" H 5050 1800 50  0000 C CNN
+F 1 "CONN_02X03" H 5050 1400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" H 5050 400 50  0001 C CNN
+F 3 "" H 5050 400 50  0001 C CNN
+	1    5050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jtag_ARM_10pin J2
+U 1 1 58F52EB0
+P 3850 1600
+F 0 "J2" H 3690 1890 60  0000 C CNN
+F 1 "Jtag_ARM_10pin" H 3850 1300 60  0000 C CNN
+F 2 "Homebrew:CNX_2X05X1.27_Vertical_SMD" H 3850 1600 60  0001 C CNN
+F 3 "" H 3850 1600 60  0001 C CNN
+	1    3850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X07 J4
+U 1 1 58F53289
+P 5200 2600
+F 0 "J4" H 5200 3000 50  0000 C CNN
+F 1 "CONN_01X07" V 5300 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x07_Pitch2.54mm" H 5200 2600 50  0001 C CNN
+F 3 "" H 5200 2600 50  0001 C CNN
+	1    5200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2300 3450 2300
+Wire Wire Line
+	3450 2300 3450 2450
+Wire Wire Line
+	4050 2550 4650 2550
+Wire Wire Line
+	4650 2550 4650 2400
+Wire Wire Line
+	4650 2400 5000 2400
+Wire Wire Line
+	5000 2500 4700 2500
+Wire Wire Line
+	4700 2500 4700 3100
+Wire Wire Line
+	4700 3100 3800 3100
+Wire Wire Line
+	3800 3100 3300 3100
+Wire Wire Line
+	3300 3100 3300 2850
+Wire Wire Line
+	3300 2850 3300 2650
+Wire Wire Line
+	3300 2650 3300 2550
+Wire Wire Line
+	3300 2550 3450 2550
+Wire Wire Line
+	3300 2650 3450 2650
+Connection ~ 3300 2650
+Wire Wire Line
+	3450 2850 3300 2850
+Connection ~ 3300 2850
+Wire Wire Line
+	4050 2450 4500 2450
+Wire Wire Line
+	4500 2450 4500 2600
+Wire Wire Line
+	4500 2600 5000 2600
+Wire Wire Line
+	4050 2850 4300 2850
+Wire Wire Line
+	4300 2850 4650 2850
+Wire Wire Line
+	4650 2850 4650 2700
+Wire Wire Line
+	4650 2700 5000 2700
+Wire Wire Line
+	4050 2650 4550 2650
+Wire Wire Line
+	4550 2650 4550 2800
+Wire Wire Line
+	4550 2800 5000 2800
+Wire Wire Line
+	4050 2750 4450 2750
+Wire Wire Line
+	4450 2750 4450 2900
+Wire Wire Line
+	4450 2900 5000 2900
+Text Label 4800 2300 0    60   ~ 0
+VCC
+Text Label 4800 2400 0    60   ~ 0
+TCK
+Text Label 4800 2500 0    60   ~ 0
+GND
+Text Label 4800 2600 0    60   ~ 0
+TMS
+Text Label 4800 2700 0    60   ~ 0
+~RST
+Text Label 4800 2800 0    60   ~ 0
+TDO
+Text Label 4800 2900 0    60   ~ 0
+TDI
+Wire Wire Line
+	3550 1400 3550 1200
+Wire Wire Line
+	3550 1200 4800 1200
+Wire Wire Line
+	4800 1200 4800 1500
+Wire Wire Line
+	4150 1400 4200 1400
+Wire Wire Line
+	4200 1400 4200 1300
+Wire Wire Line
+	4200 1300 5300 1300
+Wire Wire Line
+	5300 1300 5300 1500
+Wire Wire Line
+	4150 1500 4300 1500
+Wire Wire Line
+	4300 1500 4300 1350
+Wire Wire Line
+	4300 1350 5350 1350
+Wire Wire Line
+	5350 1350 5350 1600
+Wire Wire Line
+	5350 1600 5300 1600
+Wire Wire Line
+	4150 1600 4250 1600
+Wire Wire Line
+	4250 1600 4250 1850
+Wire Wire Line
+	4250 1850 5350 1850
+Wire Wire Line
+	5350 1850 5350 1700
+Wire Wire Line
+	5350 1700 5300 1700
+Wire Wire Line
+	4150 1800 4300 1800
+Wire Wire Line
+	4300 1800 4350 1800
+Wire Wire Line
+	4350 1800 4350 1600
+Wire Wire Line
+	4350 1600 4800 1600
+Wire Wire Line
+	4800 1700 4800 1950
+Wire Wire Line
+	4800 1950 3800 1950
+Wire Wire Line
+	3800 1950 3400 1950
+Wire Wire Line
+	3400 1950 3400 1800
+Wire Wire Line
+	3400 1800 3400 1600
+Wire Wire Line
+	3400 1600 3400 1500
+Wire Wire Line
+	3400 1500 3550 1500
+Wire Wire Line
+	3550 1600 3400 1600
+Connection ~ 3400 1600
+Wire Wire Line
+	3550 1800 3400 1800
+Connection ~ 3400 1800
+Wire Wire Line
+	4300 2150 4300 1800
+Connection ~ 4300 1800
+Wire Wire Line
+	3800 2150 3800 1950
+Connection ~ 3800 1950
+Wire Wire Line
+	4300 3250 4300 2850
+Connection ~ 4300 2850
+Wire Wire Line
+	3800 3250 3800 3100
+Connection ~ 3800 3100
+$Comp
+L SW_Push SW1
+U 1 1 58F54665
+P 4050 2150
+F 0 "SW1" H 4100 2250 50  0000 L CNN
+F 1 "SW_Push" H 4050 2090 50  0000 C CNN
+F 2 "Homebrew:Homebrew-SMT_SPSD_5X3MM" H 4050 2350 50  0001 C CNN
+F 3 "" H 4050 2350 50  0001 C CNN
+	1    4050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW2
+U 1 1 58F546DA
+P 4050 3250
+F 0 "SW2" H 4100 3350 50  0000 L CNN
+F 1 "SW_Push" H 4050 3190 50  0000 C CNN
+F 2 "Homebrew:Homebrew-SMT_SPSD_5X3MM" H 4050 3450 50  0001 C CNN
+F 3 "" H 4050 3450 50  0001 C CNN
+	1    4050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3250 4300 3250
+Wire Wire Line
+	3850 3250 3800 3250
+Wire Wire Line
+	4250 2150 4300 2150
+Wire Wire Line
+	3850 2150 3800 2150
+Text Label 4500 1950 0    60   ~ 0
+GND
+$EndSCHEMATC

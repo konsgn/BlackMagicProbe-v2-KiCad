@@ -1,0 +1,51 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon 17 Apr 2017 05:16:39 PM EDT
+
+BeginCmp
+TimeStamp = 58FB7FC7
+Path = /58F52CD3
+Reference = J1;
+ValeurCmp = Jtag_ARM_10pin;
+IdModule  = Homebrew:CNX_2X05X1.27_Vertical_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FB7FDD
+Path = /58F52EB0
+Reference = J2;
+ValeurCmp = Jtag_ARM_10pin;
+IdModule  = Homebrew:CNX_2X05X1.27_Vertical_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FB800F
+Path = /58F52D6A
+Reference = J3;
+ValeurCmp = CONN_02X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FB80A5
+Path = /58F53289
+Reference = J4;
+ValeurCmp = CONN_01X07;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x07_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FB80AF
+Path = /58F537A5
+Reference = SW1;
+ValeurCmp = SPST_2-PIN;
+IdModule  = Homebrew:Homebrew-2-PIN-MINI-PUSHBUTTON;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FB80B9
+Path = /58F537C3
+Reference = SW2;
+ValeurCmp = SPST_2-PIN;
+IdModule  = Homebrew:Homebrew-SMT_SPSD_5X3MM;
+EndCmp
+
+EndListe
